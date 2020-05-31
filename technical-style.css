@@ -1,0 +1,85 @@
+.box-container{
+	display: flex;
+}
+
+.page-wrap{
+	width: 275px;
+	margin: 2px auto;
+	position: relative;
+}
+
+#navbar{
+	font-family: Arial, Helvetica, sans-serif;
+	height: 42%;
+	width: 20%;
+	background-color: #8E8B71;
+	margin-left: 2px;
+	position: fixed;
+	text-align: center;
+	border-radius: 30px;
+	border-width: 2px;
+	border-color: #8B718E;
+	border-style: solid;
+	margin-right: 5px;
+}
+
+#main-doc{
+	font-family: Arial, Helvetica, sans-serif;
+	height: 100%;
+	width: 80%;
+	background-color: #8E8B71;
+	margin: 2px;
+	position: relative;
+	border-width: 2px;
+	border-color: #8B718E;
+	border-style: solid;
+	border-radius: 30px;
+	margin-left: 15px;
+}
+
+#foot{
+	font-family: Arial, Helvetica, sans-serif;
+	height: 10%;
+	width: 70%;
+	background-color: #8E8B71;
+	margin-left: 25%;
+	text-align: center;
+	border-radius: 30px;
+	border-width: 2px;
+	border-color: #8B718E;
+	border-style: solid;
+	margin-right: 5px;
+	position: relative;
+}
+
+#boat_parts{
+	margin: 2px;
+}
+
+#body{
+	background-color: #718E8B;
+}
+
+#nav_header{
+	font-size: 20px;
+	weight: bold;
+	padding-top: 5px;
+}
+
+p{
+		padding: 4px;
+}
+
+
+code{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	weight: bold;
+	font-style: italic;
+	padding: 2px;
+}
+
+@media (min-height: 350px){
+	width: 350px;	
+}
+
